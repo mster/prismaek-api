@@ -1,0 +1,25 @@
+{
+  "name": "prismaek-server",
+  "version": "0.0.0",
+  "description": "Prismaek Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "exit 0",
+    "start-dev": "echo \"Running in development mode\" && nodemon server.js"
+  },
+  "keywords": [
+    "prismaek"
+  ],
+  "author": "@mster <github>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.14.0",
+    "fastify-autoload": "^3.6.0",
+    "fastify-helmet": "^5.3.1",
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
