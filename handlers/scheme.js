@@ -1,7 +1,6 @@
 'use strict'
-
-const { isHex, hex2HSV, HSV2Hex } = require('../../prismaek/lib/utils')
-const harmonies = require('../../prismaek/lib/harmonies')
+const { utils, harmonies } = require('prismaek')
+const { isHex, hex2HSV, HSV2Hex } = utils
 
 module.exports = {
     handleSchemeRoot,

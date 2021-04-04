@@ -17,7 +17,8 @@
     "fastify": "^3.14.0",
     "fastify-autoload": "^3.6.0",
     "fastify-helmet": "^5.3.1",
-    "fastify-plugin": "^3.0.0"
+    "fastify-plugin": "^3.0.0",
+    "prismaek": "0.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
